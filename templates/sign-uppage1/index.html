@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/globals.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleguide.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <div class="sign-up-page">
+      <div class="sign-up-wrapper">
+        <div class="sign-up">
+          <div class="div">
+            <div class="text-wrapper">Create an account</div>
+            <p class="already-have-an">
+              <span class="span">Already have an account?&nbsp;&nbsp; </span>
+              <a href="{{ url_for('login') }}" class="text-wrapper-2">Login</a>
+            </p>
+          </div>
+          <form action="{{ url_for('signup') }}" method="post">
+            <div class="content-conatiner">
+              <div class="text-container">
+                <div class="div">
+                  <p class="p">You’re creating an account as?</p>
+                  <div class="containers">
+                    <div class="patient-container">
+                      <label class="text-button">
+                        <input type="radio" name="account_type" value="patient" />
+                        <div class="text-wrapper-3">As a patient</div>
+                      </label>
+                    </div>
+                    <div class="text-button-wrapper">
+                      <label class="text-button">
+                        <input type="radio" name="account_type" value="clinician" />
+                        <div class="text-wrapper-4">As a clinician</div>
+                      </label>
+                    </div>
+                    <div class="text-button-wrapper">
+                      <label class="text-button">
+                        <input type="radio" name="account_type" value="family" />
+                        <div class="text-wrapper-4">As a Friend/Family</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-fields">
+                  <div class="text-field">
+                    <label class="label" for="full_name">Full Name</label>
+                    <input class="input-field" id="full_name" name="full_name" type="text" required />
+                  </div>
+                  <div class="text-field">
+                    <label class="label" for="email">Email Address</label>
+                    <input class="input-field" id="email" name="email" type="email" required />
+                  </div>
+                  <div class="text-field">
+                    <label class="label" for="password">Password</label>
+                    <input class="input-field" id="password" name="password" type="password" required />
+                  </div>
+                  <div class="text-field">
+                    <label class="label" for="confirm_password">Confirm Password</label>
+                    <input class="input-field" id="confirm_password" name="confirm_password" type="password" required />
+                  </div>
+                </div>
+                <div class="check-box">
+                  <input type="checkbox" id="agree_terms" name="agree_terms" required />
+                  <label for="agree_terms" class="i-want-to-receive">I agree to the Terms of Service and acknowledge you’ve read our Privacy Policy.</label>
+                </div>
+              </div>
+              <div class="primary-buttons"><button type="submit" class="button-label">Create Account</button></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

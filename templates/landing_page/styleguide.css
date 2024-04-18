@@ -1,0 +1,36 @@
+:root {
+  --secondarygray-700: rgba(65, 64, 66, 1);
+  --blackish-green: rgba(17, 34, 17, 1);
+  --neutralsgray-5: rgba(143, 140, 145, 1);
+  --mint-green: rgba(141, 211, 187, 1);
+  --purewhite: rgba(255, 255, 255, 1);
+  --neutralsgray-2: rgba(210, 209, 211, 1);
+  --actionable-item: rgba(24, 160, 251, 1);
+  --display-2-font-family: "Yeseva One", Helvetica;
+  --display-2-font-weight: 400;
+  --display-2-font-size: 32px;
+  --display-2-letter-spacing: 0px;
+  --display-2-line-height: normal;
+  --display-2-font-style: normal;
+  --caption-font-family: "Work Sans", Helvetica;
+  --caption-font-weight: 700;
+  --caption-font-size: 18px;
+  --caption-letter-spacing: 2.88px;
+  --caption-line-height: normal;
+  --caption-font-style: normal;
+  --montserrat-medium-14px-font-family: "Montserrat", Helvetica;
+  --montserrat-medium-14px-font-weight: 500;
+  --montserrat-medium-14px-font-size: 14px;
+  --montserrat-medium-14px-letter-spacing: 0px;
+  --montserrat-medium-14px-line-height: normal;
+  --montserrat-medium-14px-font-style: normal;
+  --variable-collection-400: rgba(155, 138, 251, 1);
+  --variable-collection-500: rgba(122, 90, 248, 1);
+  --variable-collection-700: rgba(89, 37, 220, 1);
+  --variable-collection-g900: rgba(16, 15, 20, 1);
+  --variable-collection-g600: rgba(73, 71, 90, 1);
+  --variable-collection-g500: rgba(104, 102, 119, 1);
+  --variable-collection-g400: rgba(151, 148, 170, 1);
+  --variable-collection-g300: rgba(203, 202, 215, 1);
+  --variable-collection-white: rgba(255, 255, 255, 1);
+}

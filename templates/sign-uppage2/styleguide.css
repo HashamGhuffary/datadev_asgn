@@ -1,0 +1,36 @@
+:root {
+  --headings-h4-font-family: "Poppins", Helvetica;
+  --headings-h4-font-weight: 600;
+  --headings-h4-font-size: 32px;
+  --headings-h4-letter-spacing: 0px;
+  --headings-h4-line-height: 41px;
+  --headings-h4-font-style: normal;
+  --button-large-font-family: "Poppins", Helvetica;
+  --button-large-font-weight: 500;
+  --button-large-font-size: 16px;
+  --button-large-letter-spacing: 0px;
+  --button-large-line-height: 25px;
+  --button-large-font-style: normal;
+  --body-text-body-large-font-family: "Poppins", Helvetica;
+  --body-text-body-large-font-weight: 400;
+  --body-text-body-large-font-size: 16px;
+  --body-text-body-large-letter-spacing: 0.08px;
+  --body-text-body-large-line-height: 25px;
+  --body-text-body-large-font-style: normal;
+  --material-theme-50: rgba(255, 255, 255, 1);
+  --variable-collection-400: rgba(155, 138, 251, 1);
+  --variable-collection-500: rgba(122, 90, 248, 1);
+  --variable-collection-700: rgba(89, 37, 220, 1);
+  --variable-collection-g900: rgba(16, 15, 20, 1);
+  --variable-collection-g600: rgba(73, 71, 90, 1);
+  --variable-collection-g500: rgba(104, 102, 119, 1);
+  --variable-collection-g400: rgba(151, 148, 170, 1);
+  --variable-collection-g300: rgba(203, 202, 215, 1);
+  --variable-collection-white: rgba(255, 255, 255, 1);
+  --variable-collection-500-duplicate: rgba(122, 90, 248, 1);
+  --variable-collection-g400-duplicate: rgba(151, 148, 170, 1);
+  --variable-collection-g600-duplicate: rgba(73, 71, 90, 1);
+  --variable-collection-g500-duplicate: rgba(104, 102, 119, 1);
+  --variable-collection-g300-duplicate: rgba(203, 202, 215, 1);
+  --variable-collection-700-duplicate: rgba(89, 37, 220, 1);
+}

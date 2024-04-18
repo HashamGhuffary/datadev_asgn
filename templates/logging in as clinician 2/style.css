@@ -1,0 +1,992 @@
+.logging-in-as-a {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.logging-in-as-a .div {
+  background-color: #f7f7f7;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.logging-in-as-a .patient-data {
+  position: absolute;
+  width: 738px;
+  height: 880px;
+  top: 123px;
+  left: 273px;
+}
+
+.logging-in-as-a .overlap-group {
+  position: relative;
+  height: 888px;
+  background-color: var(--white);
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: var(--stroke);
+}
+
+.logging-in-as-a .overlap {
+  position: absolute;
+  width: 738px;
+  height: 66px;
+  top: 55px;
+  left: 0;
+}
+
+.logging-in-as-a .overlap-2 {
+  position: absolute;
+  width: 738px;
+  height: 66px;
+  top: 0;
+  left: 0;
+}
+
+.logging-in-as-a .icon-more {
+  position: absolute;
+  width: 24px;
+  height: 66px;
+  top: 0;
+  left: 694px;
+}
+
+.logging-in-as-a .line {
+  width: 738px;
+  height: 1px;
+  top: 52px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .table-heading {
+  position: absolute;
+  width: 623px;
+  height: 21px;
+  top: 16px;
+  left: 24px;
+}
+
+.logging-in-as-a .text-wrapper {
+  position: absolute;
+  width: 149px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .text-wrapper-2 {
+  position: absolute;
+  width: 97px;
+  top: 0;
+  left: 195px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .text-wrapper-3 {
+  position: absolute;
+  width: 108px;
+  top: 0;
+  left: 509px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .patient-row {
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  top: 131px;
+  left: 23px;
+}
+
+.logging-in-as-a .full-name {
+  position: absolute;
+  width: 108px;
+  top: 6px;
+  left: 43px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--text-100);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .date {
+  position: absolute;
+  width: 97px;
+  top: 6px;
+  left: 195px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .diagnostic {
+  position: absolute;
+  width: 82px;
+  top: 5px;
+  left: 355px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .status {
+  position: absolute;
+  width: 74px;
+  top: 6px;
+  left: 526px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--main-100);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .photo {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  background-color: var(--main-10);
+  border-radius: 2px;
+}
+
+.logging-in-as-a .icon-edit {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 7px;
+  left: 642px;
+}
+
+.logging-in-as-a .icon-trash {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 7px;
+  left: 675px;
+}
+
+.logging-in-as-a .navbar {
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  top: 179px;
+  left: 23px;
+}
+
+.logging-in-as-a .diagnostic-2 {
+  position: absolute;
+  width: 169px;
+  top: 6px;
+  left: 353px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .status-2 {
+  position: absolute;
+  width: 74px;
+  top: 6px;
+  left: 526px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffc107;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .navbar-2 {
+  top: 237px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .navbar-3 {
+  top: 293px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .status-3 {
+  position: absolute;
+  width: 74px;
+  top: 6px;
+  left: 526px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .navbar-4 {
+  top: 349px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .patient-row-2 {
+  top: 405px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .patient-row-3 {
+  top: 463px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .patient-row-4 {
+  top: 519px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .patient-row-5 {
+  top: 575px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .patient-row-6 {
+  top: 631px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .patient-row-7 {
+  top: 687px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .patient-row-8 {
+  top: 743px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .patient-row-9 {
+  top: 799px;
+  position: absolute;
+  width: 700px;
+  height: 32px;
+  left: 23px;
+}
+
+.logging-in-as-a .heading {
+  position: absolute;
+  height: 27px;
+  top: 18px;
+  left: 19px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #494949;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .right-sidebar {
+  position: absolute;
+  width: 386px;
+  height: 351px;
+  top: 0;
+  left: 1054px;
+}
+
+.logging-in-as-a .doctor-wrapper {
+  height: 343px;
+  background-color: #ffffff;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: var(--stroke);
+}
+
+.logging-in-as-a .doctor {
+  position: relative;
+  width: 346px;
+  height: 230px;
+  top: 63px;
+  left: 19px;
+}
+
+.logging-in-as-a .group {
+  position: relative;
+  width: 348px;
+  height: 230px;
+}
+
+.logging-in-as-a .dr-sarah-patel-MD {
+  position: absolute;
+  height: 27px;
+  top: 104px;
+  left: 41px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-100);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .span {
+  font-weight: 500;
+}
+
+.logging-in-as-a .text-wrapper-4 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #1b1b1b;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.logging-in-as-a .group-2 {
+  position: absolute;
+  width: 85px;
+  height: 66px;
+  top: 164px;
+  left: 0;
+}
+
+.logging-in-as-a .text-wrapper-5 {
+  position: absolute;
+  width: 81px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .text-wrapper-6 {
+  position: absolute;
+  width: 53px;
+  height: 32px;
+  top: 34px;
+  left: 13px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--text-100);
+  font-size: 21px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .group-3 {
+  position: absolute;
+  width: 85px;
+  height: 66px;
+  top: 164px;
+  left: 133px;
+}
+
+.logging-in-as-a .text-wrapper-7 {
+  position: absolute;
+  height: 18px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .text-wrapper-8 {
+  position: absolute;
+  height: 32px;
+  top: 34px;
+  left: 14px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--text-100);
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .group-4 {
+  position: absolute;
+  width: 85px;
+  height: 66px;
+  top: 164px;
+  left: 265px;
+}
+
+.logging-in-as-a .text-wrapper-9 {
+  position: absolute;
+  height: 32px;
+  top: 34px;
+  left: 25px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--text-100);
+  font-size: 21px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .rectangle {
+  width: 80px;
+  height: 80px;
+  left: 133px;
+  position: absolute;
+  top: 0;
+}
+
+.logging-in-as-a .img {
+  width: 1px;
+  height: 43px;
+  top: 171px;
+  left: 107px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .line-2 {
+  width: 1px;
+  height: 43px;
+  top: 171px;
+  left: 240px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .header {
+  position: absolute;
+  width: 798px;
+  height: 90px;
+  top: 0;
+  left: 256px;
+  background-color: #ffffff;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-color: var(--stroke);
+}
+
+.logging-in-as-a .search-bar {
+  position: absolute;
+  width: 388px;
+  height: 40px;
+  top: 25px;
+  left: 317px;
+}
+
+.logging-in-as-a .overlap-3 {
+  position: relative;
+  width: 390px;
+  height: 40px;
+}
+
+.logging-in-as-a .overlap-group-wrapper {
+  position: absolute;
+  width: 390px;
+  height: 40px;
+  top: 0;
+  left: 0;
+}
+
+.logging-in-as-a .div-wrapper {
+  position: relative;
+  width: 388px;
+  height: 40px;
+  background-color: var(--white);
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--stroke);
+}
+
+.logging-in-as-a .text {
+  position: absolute;
+  width: 172px;
+  height: 18px;
+  top: 10px;
+  left: 19px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .icon-search-normal {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 11px;
+  left: 354px;
+}
+
+.logging-in-as-a .text-wrapper-10 {
+  position: absolute;
+  height: 36px;
+  top: 26px;
+  left: 29px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--text-100);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .icon-notification-wrapper {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 725px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--stroke);
+}
+
+.logging-in-as-a .icon-notification {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 7px;
+  left: 7px;
+}
+
+.logging-in-as-a .sidebar {
+  position: absolute;
+  width: 256px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: var(--stroke);
+}
+
+.logging-in-as-a .overlap-4 {
+  position: absolute;
+  width: 190px;
+  height: 297px;
+  top: 127px;
+  left: 26px;
+}
+
+.logging-in-as-a .rectangle-2 {
+  width: 190px;
+  height: 42px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 2px;
+  position: absolute;
+  top: 0;
+}
+
+.logging-in-as-a .rectangle-3 {
+  position: absolute;
+  width: 190px;
+  height: 42px;
+  top: 65px;
+  left: 0;
+  background-color: #fff4d2;
+  border-radius: 2px;
+  box-shadow: 4px 4px 50px #3a6ff824;
+}
+
+.logging-in-as-a .top-menu {
+  position: absolute;
+  width: 166px;
+  height: 288px;
+  top: 9px;
+  left: 14px;
+}
+
+.logging-in-as-a .general {
+  display: flex;
+  flex-direction: column;
+  width: 166px;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+}
+
+.logging-in-as-a .frame {
+  display: flex;
+  width: 166px;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 11px 8px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.logging-in-as-a .img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.logging-in-as-a .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #a8a8a8;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .frame-2 {
+  display: flex;
+  width: 166px;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 0px 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.logging-in-as-a .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .user-account {
+  position: absolute;
+  width: 216px;
+  height: 41px;
+  top: 941px;
+  left: 25px;
+}
+
+.logging-in-as-a .user-account-wrapper {
+  height: 41px;
+}
+
+.logging-in-as-a .group-wrapper {
+  width: 216px;
+  height: 41px;
+}
+
+.logging-in-as-a .group-5 {
+  position: relative;
+  height: 41px;
+}
+
+.logging-in-as-a .overlap-group-2 {
+  position: absolute;
+  width: 41px;
+  height: 40px;
+  top: 0;
+  left: 0;
+}
+
+.logging-in-as-a .avatar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background-color: var(--main-10);
+  border-radius: 2px;
+}
+
+.logging-in-as-a .rectangle-4 {
+  width: 40px;
+  height: 40px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+}
+
+.logging-in-as-a .name-position {
+  position: absolute;
+  width: 84px;
+  height: 21px;
+  top: 0;
+  left: 50px;
+}
+
+.logging-in-as-a .text-wrapper-14 {
+  position: absolute;
+  height: 21px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--text-100);
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .name-position-2 {
+  position: absolute;
+  width: 43px;
+  height: 18px;
+  top: 23px;
+  left: 50px;
+}
+
+.logging-in-as-a .text-wrapper-15 {
+  position: absolute;
+  height: 18px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--text-10);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .icon-arrow-down {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 9px;
+  left: 192px;
+}
+
+.logging-in-as-a .overlap-5 {
+  position: absolute;
+  width: 161px;
+  height: 76px;
+  top: 14px;
+  left: 28px;
+}
+
+.logging-in-as-a .logo {
+  position: absolute;
+  width: 149px;
+  height: 40px;
+  top: 18px;
+  left: 12px;
+}
+
+.logging-in-as-a .diabright {
+  position: absolute;
+  height: 32px;
+  top: 3px;
+  left: 47px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.logging-in-as-a .text-wrapper-16 {
+  color: #ffc107;
+}
+
+.logging-in-as-a .text-wrapper-17 {
+  color: #000000;
+}
+
+.logging-in-as-a .icon {
+  position: absolute;
+  width: 50px;
+  height: 76px;
+  top: 0;
+  left: 0;
+}
+
+.logging-in-as-a .logo-2 {
+  width: 52px;
+  height: 76px;
+}
+
+.logging-in-as-a .overlap-group-3 {
+  position: relative;
+  width: 50px;
+  height: 76px;
+}
+
+.logging-in-as-a .ellipse {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  top: 27px;
+  left: 11px;
+  background-color: #ffc1072e;
+  border-radius: 12.5px/11.81px;
+}
+
+.logging-in-as-a .line-3 {
+  width: 1px;
+  height: 17px;
+  top: 9px;
+  left: 23px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .line-4 {
+  width: 14px;
+  height: 14px;
+  top: 45px;
+  left: 1px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .line-5 {
+  position: absolute;
+  width: 13px;
+  height: 14px;
+  top: 47px;
+  left: 31px;
+  object-fit: cover;
+}
+
+.logging-in-as-a .line-6 {
+  width: 14px;
+  height: 14px;
+  top: 18px;
+  left: 1px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .line-7 {
+  width: 13px;
+  height: 14px;
+  top: 17px;
+  left: 32px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .line-8 {
+  width: 16px;
+  height: 1px;
+  top: 42px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .line-9 {
+  width: 32px;
+  height: 1px;
+  top: 42px;
+  left: 18px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .line-10 {
+  width: 1px;
+  height: 17px;
+  top: 50px;
+  left: 23px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.logging-in-as-a .p {
+  position: absolute;
+  width: 49px;
+  top: 0;
+  left: 1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 900;
+  color: transparent;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 74px;
+  white-space: nowrap;
+}

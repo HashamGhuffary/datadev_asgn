@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/globals.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleguide.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <div class="login">
+
+      <div class="login-page">
+
+        <div class="div">
+          <form action="{{ url_for('login') }}" method="post">
+            <div class="text-container">
+              <div class="input-fields">
+                <div class="text-field">
+                  <label class="label" for="email_or_username">Email</label>
+                  <input class="input-field" name="email_or_username" id="email_or_username" placeholder="Email Address" type="text" />
+                </div>
+                <div class="text-field">
+                  <label class="label" for="password">Password</label>
+                  <input class="input-field" name="password" id="password" placeholder="Password" type="password" />
+                  <!-- Eye icon and other elements for password visibility toggling -->
+                </div>
+              </div>
+            </div>
+            <div class="primary-buttons" style="margin-top: 20px"><button class="button-label" type="submit">Log in</button></div>
+          </form>
+          <p class="don-t-have-an">
+    <span class="span">Don’t have an account? </span>
+    <a href="{{ url_for('signup') }}" class="text-wrapper-7">Sign up</a>
+</p>
+
+        </div>
+        <div class="frame-5">
+          <div class="text-wrapper-8">Login</div>
+
+          <p class="login-to-access-your">Login to access your crescentcare&nbsp;&nbsp;account</p>
+              {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

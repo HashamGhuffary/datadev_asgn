@@ -1,0 +1,2131 @@
+.landing-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing-page .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1440px;
+  height: 1007px;
+  position: relative;
+}
+
+.landing-page .end {
+  position: absolute;
+  width: 1232px;
+  height: 260px;
+  top: 4303px;
+  left: 71px;
+  overflow: hidden;
+}
+
+.landing-page .sub-menu {
+  position: absolute;
+  width: 556px;
+  top: 235px;
+  left: 0;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #92989e;
+  font-size: 12px;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+}
+
+.landing-page .line {
+  position: absolute;
+  width: 1232px;
+  height: 2px;
+  top: 206px;
+  left: 0;
+}
+
+.landing-page .newsletter {
+  position: absolute;
+  width: 401px;
+  height: 82px;
+  top: 46px;
+  left: 831px;
+}
+
+.landing-page .input-button {
+  all: unset;
+  box-sizing: border-box;
+  width: 400px;
+  top: 42px;
+  left: 1px;
+  position: absolute;
+  height: 40px;
+}
+
+.landing-page .button-small {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  top: 0;
+  left: 280px;
+  background-color: #62c6ce;
+  border-radius: 8px;
+}
+
+.landing-page .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 7px;
+  left: 25px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.landing-page .input-field {
+  width: 272px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  height: 40px;
+}
+
+.landing-page .overlap-group {
+  position: relative;
+  width: 274px;
+  height: 42px;
+  top: -1px;
+  left: -1px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #b3bdc7;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #92989e;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  padding: 0;
+  padding-left: 15px;
+}
+
+.landing-page .description {
+  position: absolute;
+  width: 400px;
+  top: -1px;
+  left: 0;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000d9;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.landing-page .menu {
+  position: absolute;
+  width: 460px;
+  height: 24px;
+  top: 102px;
+  left: 0;
+}
+
+.landing-page .list {
+  left: 0;
+  position: absolute;
+  top: -1px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000d9;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper {
+  left: 83px;
+  position: absolute;
+  top: -1px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000d9;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.landing-page .list-2 {
+  left: 199px;
+  position: absolute;
+  top: -1px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000d9;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.landing-page .list-3 {
+  left: 296px;
+  position: absolute;
+  top: -1px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000d9;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.landing-page .company {
+  position: absolute;
+  width: 391px;
+  height: 93px;
+  top: -15px;
+  left: -3px;
+}
+
+.landing-page .logo {
+  position: absolute;
+  width: 52px;
+  height: 74px;
+  top: 13px;
+  left: 17px;
+}
+
+.landing-page .overlap-group-2 {
+  position: relative;
+  width: 50px;
+  height: 74px;
+}
+
+.landing-page .ellipse {
+  position: absolute;
+  width: 25px;
+  height: 23px;
+  top: 26px;
+  left: 11px;
+  background-color: #ffc1072e;
+  border-radius: 12.5px/11.5px;
+}
+
+.landing-page .img {
+  width: 1px;
+  height: 17px;
+  top: 9px;
+  left: 24px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .line-2 {
+  width: 13px;
+  height: 13px;
+  top: 45px;
+  left: 1px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .line-3 {
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  top: 45px;
+  left: 32px;
+  object-fit: cover;
+}
+
+.landing-page .line-4 {
+  width: 13px;
+  height: 13px;
+  top: 18px;
+  left: 1px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .line-5 {
+  width: 13px;
+  height: 13px;
+  top: 18px;
+  left: 33px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .line-6 {
+  width: 16px;
+  height: 1px;
+  top: 41px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .line-7 {
+  width: 32px;
+  height: 1px;
+  top: 42px;
+  left: 18px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .line-8 {
+  width: 1px;
+  height: 17px;
+  top: 49px;
+  left: 24px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .diabright {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 900;
+  color: transparent;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 74px;
+  white-space: nowrap;
+}
+
+.landing-page .span {
+  color: #ffc107;
+}
+
+.landing-page .text-wrapper-2 {
+  color: #000000;
+}
+
+.landing-page .text-wrapper-3 {
+  position: absolute;
+  top: 13px;
+  left: 94px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 74px;
+  white-space: nowrap;
+}
+
+.landing-page .main-text {
+  width: 502px;
+  top: 1249px;
+  left: 63px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  position: absolute;
+  font-family: "Epilogue", Helvetica;
+  color: #323842;
+  letter-spacing: 0;
+}
+
+.landing-page .eye-picture {
+  position: absolute;
+  width: 1440px;
+  height: 376px;
+  top: 1437px;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 857px;
+  top: 88px;
+  left: 0;
+}
+
+.landing-page .docdoc {
+  position: absolute;
+  width: 1440px;
+  height: 612px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .rectangle {
+  position: absolute;
+  width: 599px;
+  height: 490px;
+  top: 367px;
+  left: 191px;
+}
+
+.landing-page .rectangle-2 {
+  position: absolute;
+  width: 600px;
+  height: 492px;
+  top: 340px;
+  left: 63px;
+}
+
+.landing-page .join-today-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 192px;
+  height: 52px;
+  top: 686px;
+  left: 179px;
+  background-color: #1e301f82;
+  border-radius: 6px;
+}
+
+.landing-page .join-today {
+  position: absolute;
+  height: 21px;
+  top: 14px;
+  left: 63px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.26px;
+  line-height: normal;
+}
+
+.landing-page .div-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 192px;
+  height: 52px;
+  top: 686px;
+  left: 394px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.landing-page .join-today-2 {
+  position: absolute;
+  height: 21px;
+  top: 13px;
+  left: 68px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #1e301f82;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.26px;
+  line-height: normal;
+}
+
+.landing-page .main-heading {
+  width: 847px;
+  top: 455px;
+  left: 38px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 74px;
+  position: absolute;
+  font-family: "Epilogue", Helvetica;
+  color: #323842;
+  letter-spacing: 0;
+}
+
+.landing-page .learn-more {
+  position: absolute;
+  width: 123px;
+  height: 26px;
+  top: 1362px;
+  left: 63px;
+}
+
+.landing-page .learn-more-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1e301f9e;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.landing-page .chevron-right-large {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  left: 95px;
+}
+
+.landing-page .main-heading-2 {
+  position: absolute;
+  width: 502px;
+  top: 1093px;
+  left: 63px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 700;
+  color: #323842;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: 74px;
+}
+
+.landing-page .text-wrapper-4 {
+  position: absolute;
+  height: 18px;
+  top: 36px;
+  left: 1008px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #203d2d;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.23px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-5 {
+  position: absolute;
+  height: 18px;
+  top: 36px;
+  left: 1109px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #203d2d;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.23px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-6 {
+  position: absolute;
+  height: 18px;
+  top: 36px;
+  left: 1215px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #203d2d;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.23px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-7 {
+  position: absolute;
+  height: 18px;
+  top: 36px;
+  left: 1334px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #203d2d;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.23px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .overlap-wrapper {
+  position: absolute;
+  width: 52px;
+  height: 74px;
+  top: 7px;
+  left: 24px;
+}
+
+.landing-page .doctors {
+  position: absolute;
+  width: 1440px;
+  height: 565px;
+  top: 2107px;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: scroll;
+}
+
+.landing-page .overlap-2 {
+  position: relative;
+  width: 2397px;
+  height: 580px;
+  top: -3px;
+}
+
+.landing-page .doctor-cards {
+  position: absolute;
+  width: 2397px;
+  height: 580px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .overlap-3 {
+  position: absolute;
+  width: 445px;
+  height: 580px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .rectangle-3 {
+  position: absolute;
+  width: 444px;
+  height: 580px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .rectangle-4 {
+  position: absolute;
+  width: 445px;
+  height: 160px;
+  top: 379px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.landing-page .text-wrapper-8 {
+  position: absolute;
+  top: 411px;
+  left: 132px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .overlap-group-3 {
+  position: absolute;
+  width: 445px;
+  height: 577px;
+  top: 3px;
+  left: 486px;
+}
+
+.landing-page .rectangle-5 {
+  position: absolute;
+  width: 444px;
+  height: 577px;
+  top: 0;
+  left: 1px;
+  object-fit: cover;
+}
+
+.landing-page .rectangle-6 {
+  position: absolute;
+  width: 445px;
+  height: 160px;
+  top: 376px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.landing-page .text-wrapper-9 {
+  position: absolute;
+  top: 408px;
+  left: 104px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .overlap-4 {
+  position: absolute;
+  width: 445px;
+  height: 577px;
+  top: 0;
+  left: 974px;
+}
+
+.landing-page .rectangle-7 {
+  position: absolute;
+  width: 444px;
+  height: 577px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .overlap-5 {
+  position: absolute;
+  width: 447px;
+  height: 577px;
+  top: 0;
+  left: 1460px;
+}
+
+.landing-page .rectangle-8 {
+  position: absolute;
+  width: 444px;
+  height: 577px;
+  top: 0;
+  left: 3px;
+  object-fit: cover;
+}
+
+.landing-page .overlap-6 {
+  position: absolute;
+  width: 445px;
+  height: 577px;
+  top: 0;
+  left: 1948px;
+}
+
+.landing-page .fellow-of-the-royal {
+  position: absolute;
+  width: 305px;
+  top: 423px;
+  left: 91px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-10 {
+  position: absolute;
+  top: 435px;
+  left: 185px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-11 {
+  position: absolute;
+  top: 395px;
+  left: 1579px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-12 {
+  top: 436px;
+  left: 673px;
+  position: absolute;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-13 {
+  top: 436px;
+  left: 1164px;
+  position: absolute;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-14 {
+  position: absolute;
+  top: 406px;
+  left: 1078px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .p {
+  top: 423px;
+  left: 580px;
+  position: absolute;
+  width: 305px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .fellow-of-the-royal-2 {
+  top: 423px;
+  left: 1058px;
+  position: absolute;
+  width: 305px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .fellow-of-the-royal-3 {
+  top: 413px;
+  left: 2029px;
+  position: absolute;
+  width: 305px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .fellow-of-the-royal-4 {
+  top: 414px;
+  left: 1533px;
+  position: absolute;
+  width: 305px;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-15 {
+  top: 424px;
+  left: 1639px;
+  position: absolute;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-16 {
+  top: 424px;
+  left: 2135px;
+  position: absolute;
+  font-family: "Jost", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .group-doctors {
+  position: absolute;
+  width: 201px;
+  height: 66px;
+  top: 1873px;
+  left: 668px;
+}
+
+.landing-page .text-wrapper-17 {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  font-family: var(--display-2-font-family);
+  font-weight: var(--display-2-font-weight);
+  color: #040404;
+  font-size: var(--display-2-font-size);
+  text-align: center;
+  letter-spacing: var(--display-2-letter-spacing);
+  line-height: var(--display-2-line-height);
+  white-space: nowrap;
+  font-style: var(--display-2-font-style);
+}
+
+.landing-page .trusted-care {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  font-family: var(--caption-font-family);
+  font-weight: var(--caption-font-weight);
+  color: #31b7c2;
+  font-size: var(--caption-font-size);
+  text-align: center;
+  letter-spacing: var(--caption-letter-spacing);
+  line-height: var(--caption-line-height);
+  white-space: nowrap;
+  font-style: var(--caption-font-style);
+}
+
+.landing-page .consultation-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 416px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 1999px;
+  left: 558px;
+}
+
+.landing-page .div-wrapper-2 {
+  display: flex;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #62c6ce;
+  border-radius: 4px;
+}
+
+.landing-page .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #f3f3f3;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .text-wrapper-19 {
+  position: absolute;
+  top: 987px;
+  left: 363px;
+  font-family: "Yeseva One", Helvetica;
+  font-weight: 400;
+  color: #040404;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .overlap-7 {
+  position: absolute;
+  width: 406px;
+  height: 224px;
+  top: 3667px;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.landing-page .overlap-8 {
+  position: absolute;
+  width: 188px;
+  height: 75px;
+  top: 29px;
+  left: 134px;
+}
+
+.landing-page .text-wrapper-20 {
+  position: absolute;
+  width: 188px;
+  top: 19px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 74px;
+  white-space: nowrap;
+}
+
+.landing-page .icon-upload {
+  top: 0;
+  left: 49px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.landing-page .text-wrapper-21 {
+  position: absolute;
+  width: 306px;
+  top: 111px;
+  left: 68px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.landing-page .overlap-9 {
+  position: absolute;
+  width: 406px;
+  height: 224px;
+  top: 3667px;
+  left: 472px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.landing-page .icon-profile {
+  top: 29px;
+  left: 182px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.landing-page .overlap-10 {
+  position: absolute;
+  width: 281px;
+  height: 94px;
+  top: 80px;
+  left: 71px;
+}
+
+.landing-page .secure-patient {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.landing-page .text-wrapper-22 {
+  position: absolute;
+  top: 0;
+  left: 57px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.landing-page .overlap-11 {
+  position: absolute;
+  width: 406px;
+  height: 224px;
+  top: 3667px;
+  left: 950px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.landing-page .clock-icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 29px;
+  left: 183px;
+}
+
+.landing-page .text-wrapper-23 {
+  position: absolute;
+  top: 80px;
+  left: 123px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .instant-access-to {
+  position: absolute;
+  top: 111px;
+  left: 64px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.landing-page .key-features {
+  position: absolute;
+  width: 1440px;
+  top: 3382px;
+  left: 15px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: 60px;
+}
+
+.landing-page .text-wrapper-24 {
+  color: #62c6ce;
+  line-height: 74px;
+}
+
+.landing-page .text-wrapper-25 {
+  color: #000000;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.landing-page .connect-with-our {
+  position: absolute;
+  width: 411px;
+  top: 1945px;
+  left: 561px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .group-tool {
+  position: absolute;
+  width: 1422px;
+  height: 485px;
+  top: 2799px;
+  left: 16px;
+}
+
+.landing-page .eye-pic {
+  position: absolute;
+  width: 700px;
+  height: 485px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .overlap-12 {
+  position: absolute;
+  width: 643px;
+  height: 359px;
+  top: 24px;
+  left: 775px;
+}
+
+.landing-page .bridging-the-gap-in {
+  position: absolute;
+  top: 255px;
+  left: 2px;
+  font-family: "Lohit Tamil-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.landing-page .discover-the-health {
+  position: absolute;
+  width: 597px;
+  top: 0;
+  left: 0;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 700;
+  color: #323842;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 74px;
+}
+
+.landing-page .daignosis-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 416px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 400px;
+  left: 777px;
+}
+
+.landing-page .pic {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 4148px;
+  left: 519px;
+  object-fit: cover;
+}
+
+.landing-page .text-wrapper-26 {
+  position: absolute;
+  width: 190px;
+  top: 4157px;
+  left: 584px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: var(--secondarygray-700);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.landing-page .overlap-13 {
+  position: absolute;
+  width: 954px;
+  height: 157px;
+  top: 3943px;
+  left: 256px;
+}
+
+.landing-page .review {
+  position: absolute;
+  width: 118px;
+  height: 18px;
+  top: 1px;
+  left: 418px;
+}
+
+.landing-page .i-was-diagnosed-with {
+  position: absolute;
+  width: 954px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .text-wrapper-27 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+
+.landing-page .text-wrapper-28 {
+  font-size: 14px;
+}
+
+.landing-page .line-9 {
+  width: 1px;
+  height: 77px;
+  top: 4138px;
+  left: 777px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .text-wrapper-29 {
+  position: absolute;
+  top: 4163px;
+  left: 784px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #62c6ce;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .login-page {
+  background-color: #ffffff;
+  width: 1068px;
+  height: 1060px;
+  position: relative;
+}
+
+.login .div {
+  display: flex;
+  flex-direction: column;
+  width: 962px;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: 260px;
+  left: 53px;
+}
+
+.login .text-container {
+  gap: 32px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .input-fields {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.login .text-field {
+  width: 961px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .email-address-or {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g400);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  font-style: var(--button-large-font-style);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.login .input-field {
+  align-items: center;
+  justify-content: space-between;
+  padding: 15.5px 20px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: var(--variable-collection-g300);
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.login .input {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -1px;
+  background-color: transparent;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g500);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+  font-style: var(--button-large-font-style);
+}
+
+.login .eye-disable {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-bottom: -1775.5px;
+  margin-left: -8095px;
+}
+
+.login .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g400);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  font-style: var(--button-large-font-style);
+}
+
+.login .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.login .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 252px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #686677;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .text-wrapper-3 {
+  position: relative;
+  width: 566px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #8c958d;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .primary-buttons {
+  display: flex;
+  width: 249px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 17px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #8c958d;
+  border-radius: 6px;
+}
+
+.login .button-label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  transition: all 0.2s ease-in;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-white);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  white-space: nowrap;
+  font-style: var(--button-large-font-style);
+}
+
+.login .frame-3 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.login .rectangle {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--t);
+  opacity: 0.25;
+}
+
+.login .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  opacity: 0.5;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--t);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .frame-4 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.login .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 49px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: var(--p);
+  transition: all 0.2s ease-in;
+}
+
+.login .text-wrapper-5 {
+  position: relative;
+  width: 136px;
+  height: 33px;
+  margin-top: -9px;
+  margin-bottom: -7px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #6771f1;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -4px;
+  margin-bottom: -2px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #6771f1;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .don-t-have-an {
+  position: relative;
+  align-self: stretch;
+  transition: all 0.2s ease-in;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .span {
+  font-weight: 500;
+  color: #303030;
+}
+
+.login .text-wrapper-7 {
+  font-weight: 900;
+  color: #8c958d;
+}
+
+.login .frame-5 {
+  display: flex;
+  flex-direction: column;
+  width: 512px;
+  align-items: flex-start;
+  gap: 16px;
+  position: absolute;
+  top: 108px;
+  left: 53px;
+}
+
+.login .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #8c958d;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .login-to-access-your {
+  position: relative;
+  width: fit-content;
+  opacity: 0.75;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #8c958d;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-up-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up-page .sign-up-wrapper {
+  background-color: #ffffff;
+  width: 1068px;
+  height: 1060px;
+}
+
+.sign-up-page .sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 962px;
+  align-items: flex-start;
+  gap: 44px;
+  position: relative;
+  left: 53px;
+}
+
+.sign-up-page .div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--headings-h4-font-family);
+  font-weight: var(--headings-h4-font-weight);
+  color: #8c958d;
+  font-size: var(--headings-h4-font-size);
+  letter-spacing: var(--headings-h4-letter-spacing);
+  line-height: var(--headings-h4-line-height);
+  font-style: var(--headings-h4-font-style);
+}
+
+.sign-up-page .already-have-an {
+  position: relative;
+  align-self: stretch;
+  transition: all 0.2s ease-in;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-g600);
+  font-size: 16px;
+  letter-spacing: 0.08px;
+  line-height: 25px;
+}
+
+.sign-up-page .span {
+  color: #494759;
+  letter-spacing: var(--body-text-body-large-letter-spacing);
+  font-family: var(--body-text-body-large-font-family);
+  font-style: var(--body-text-body-large-font-style);
+  font-weight: var(--body-text-body-large-font-weight);
+  line-height: var(--body-text-body-large-line-height);
+  font-size: var(--body-text-body-large-font-size);
+}
+
+.sign-up-page .text-wrapper-2 {
+  font-weight: 600;
+  color: #0b1514;
+  letter-spacing: 0.01px;
+  text-decoration: underline;
+}
+
+.sign-up-page .content-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .p {
+  position: relative;
+  width: 669px;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-g600);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.sign-up-page .containers {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .patient-container {
+  display: flex;
+  flex-direction: column;
+  width: 298px;
+  height: 67px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 15px 25px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #d1d0db;
+  transition: all 0.2s ease-in;
+}
+
+.sign-up-page .text-button {
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .radio-buttons {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  border: 1.5px solid;
+  border-color: #cbcad7;
+}
+
+.sign-up-page .text-wrapper-3 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #49475a;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.sign-up-page .text-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 67px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 15px 25px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--variable-collection-g300);
+  transition: all 0.2s ease-in;
+}
+
+.sign-up-page .radio-buttons-2 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  border: 1.5px solid;
+  border-color: var(--variable-collection-g300);
+}
+
+.sign-up-page .text-wrapper-4 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-g600);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.sign-up-page .input-fields {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-field {
+  flex-direction: column;
+  width: 961px;
+  align-items: flex-start;
+  gap: 8px;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .input {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g400);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  font-style: var(--button-large-font-style);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.sign-up-page .input-field {
+  padding: 15.5px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #d1d0db;
+  box-shadow: inset 0px 2px 2px #0000001a;
+  background: none;
+  flex: 0 0 auto;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #686677;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.sign-up-page .input-field-2 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 15.5px 20px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: var(--variable-collection-g300);
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .input-2 {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -1px;
+  background-color: transparent;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g500);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+  font-style: var(--button-large-font-style);
+}
+
+.sign-up-page .eye-disable {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-bottom: -1679.5px;
+  margin-left: -3443px;
+}
+
+.sign-up-page .label {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g400);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  font-style: var(--button-large-font-style);
+}
+
+.sign-up-page .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up-page .re-entre-password {
+  display: flex;
+  flex-direction: column;
+  width: 961px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-field-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .hide-password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-wrapper-5 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g400);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  font-style: var(--button-large-font-style);
+}
+
+.sign-up-page .password-hide-see {
+  display: flex;
+  width: 73px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  opacity: 0;
+}
+
+.sign-up-page .eye-disable-2 {
+  margin-bottom: -1477.5px;
+  margin-left: -3406px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up-page .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-g600);
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-up-page .re-entre-password-2 {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -1px;
+  background-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--variable-collection-g500);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+}
+
+.sign-up-page .eye-disable-3 {
+  margin-bottom: -1443.5px;
+  margin-left: -4163px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up-page .eye-disable-4 {
+  margin-left: -2159px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up-page .skills {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .check-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 8px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .i-want-to-receive {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--body-text-body-large-font-family);
+  font-weight: var(--body-text-body-large-font-weight);
+  color: var(--variable-collection-g600);
+  font-size: var(--body-text-body-large-font-size);
+  letter-spacing: var(--body-text-body-large-letter-spacing);
+  line-height: var(--body-text-body-large-line-height);
+  font-style: var(--body-text-body-large-font-style);
+}
+
+.sign-up-page .primary-buttons {
+  display: flex;
+  width: 249px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 17px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #8c958d;
+  border-radius: 6px;
+  transition: all 0.2s ease-in;
+}
+
+.sign-up-page .button-label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-white);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  white-space: nowrap;
+  font-style: var(--button-large-font-style);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetic Retinopathy Classification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        input[type="file"] {
+            display: none;
+        }
+        label {
+            display: block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        label:hover {
+            background-color: #0056b3;
+        }
+        button[type="submit"] {
+            display: block;
+            margin: 20px auto;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .preview {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #image-preview {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Diabetic Retinopathy Classification</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="image">Choose Image</label>
+            <input type="file" id="image" name="image" accept=".png, .jpg, .jpeg" required>
+            <button type="submit">Upload Image</button>
+        </form>
+        <div class="preview">
+            <h2>Image Preview</h2>
+            <img id="image-preview" src="#" alt="Image Preview">
+        </div>
+        {% if result %}
+        <div class="result">
+            <h2>Classification Result:</h2>
+            <p>{{ result }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // JavaScript to display image preview
+        document.getElementById('image').addEventListener('change', function(event) {
+            var file = event.target.files[0];
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById('image-preview').src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        });
+    </script>
+</body>
+</html>

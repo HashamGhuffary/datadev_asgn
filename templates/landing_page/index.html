@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/globals.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/styleguide.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}" />
+  </head>
+  <body>
+    <div class="landing-page">
+      <div class="div">
+        <div class="end">
+          <p class="sub-menu">
+            Terms &amp; Conditions&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; Privacy
+            Policy&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; Accessibility&nbsp;&nbsp;&nbsp;&nbsp;
+            |&nbsp;&nbsp;&nbsp;&nbsp; Legal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+          </p>
+          <img class="line" src="{{ url_for('static', filename= 'img/line.png') }}" />
+          <div class="newsletter">
+            <button class="input-button">
+              <button class="button-small"><button class="button">Subscribe</button></button>
+              <div class="input-field">
+                <input class="overlap-group" placeholder="Your email address…" type="email" />
+              </div>
+            </button>
+            <div class="description">Subscribe to the newsletter</div>
+          </div>
+          <div class="menu">
+            <div class="list">About</div>
+            <div class="text-wrapper">Complains</div>
+            <div class="list-2">Support</div>
+            <div class="list-3">Services</div>
+          </div>
+          <div class="company">
+            <div class="logo">
+              <div class="overlap-group-2">
+                <div class="ellipse"></div>
+                <img class="img" src="{{ url_for('static', filename= 'img/line-1-1.png') }}" />
+                <img class="line-2" src="{{ url_for('static', filename= 'img/line-6-2.png') }}" />
+                <img class="line-3" src="{{ url_for('static', filename= 'img/line-6-3.png') }}" />
+                <img class="line-4" src="{{ url_for('static', filename= 'img/line-5-1.png') }}" />
+                <img class="line-5" src="{{ url_for('static', filename= 'img/line-4-1.png') }}"/>
+                <img class="line-6" src="{{ url_for('static', filename= 'img/line-3-1.png') }}" />
+                <img class="line-7" src="{{ url_for('static', filename= 'img/line-2-1.png') }}" />
+                <img class="line-8" src="{{ url_for('static', filename= 'img/line-1-1.png') }}" />
+                <p class="diabright"><span class="span">Dia</span> <span class="text-wrapper-2">bright</span></p>
+              </div>
+            </div>
+            <div class="text-wrapper-3">Diabright</div>
+          </div>
+        </div>
+        <p class="main-text">
+          Diabetic retinopathy is caused by high blood sugar due to diabetes. Over time, having too much sugar in your
+          blood can damage your retina. Diabetic retinopathy is best diagnosed with a comprehensive dilated eye exam.
+        </p>
+
+        <img class="eye-picture" src="{{ url_for('static', filename= 'img/eye-picture-5.png') }}" />
+        <div class="overlap">
+          <img class="docdoc" src="{{ url_for('static', filename= 'img/docdoc-2.png') }}" />
+          <img class="rectangle" src="{{ url_for('static', filename= 'img/rectangle-39922.png') }}" />
+          <img class="rectangle-2" src="{{ url_for('static', filename= 'img/rectangle-39923.png') }}" />
+          <button class="join-today-wrapper" onclick="openLink('{{ url_for('signup') }}')"><div class="join-today">Sign up</div></button>
+          <button class="div-wrapper" onclick="openLink('{{ url_for('login') }}')"><div class="join-today-2">Log in</div></button>
+          <p class="main-heading">
+            Welcome to Diabright where we help Manage and Prevent Diabetic Retinopathy with Ease.
+          </p>
+        </div>
+        <div class="learn-more">
+          <div class="learn-more-2">Learn more</div>
+          <img class="chevron-right-large" src="{{ url_for('static', filename= 'img/chevron-right-large-1.png') }}" />
+        </div>
+        <div class="main-heading-2">Understanding Diabetic Retinopathy</div>
+        <div class="text-wrapper-4">Services</div>
+        <div class="text-wrapper-5">Doctors</div>
+        <div class="text-wrapper-6">About Us</div>
+        <div class="text-wrapper-7">Support</div>
+        <div class="overlap-wrapper">
+          <div class="overlap-group-2">
+            <div class="ellipse"></div>
+            <img class="img" src="{{ url_for('static', filename= 'img/line-1-1.png') }}" />
+            <img class="line-2" src="{{ url_for('static', filename= 'img/line-6-2.png') }}" />
+            <img class="line-3" src="{{ url_for('static', filename= 'img/line-1-3.png') }}" />
+            <img class="line-4" src="{{ url_for('static', filename= 'img/line-5-1.png') }}" />
+            <img class="line-5" src="{{ url_for('static', filename= 'img/line-4-1.png') }}" />
+            <img class="line-6" src="{{ url_for('static', filename= 'img/line-3-1.png') }}" />
+            <img class="line-7" src="{{ url_for('static', filename= 'img/line-2-1.png') }}" />
+            <img class="line-8" src="{{ url_for('static', filename= 'img/line-1-1.png') }}" />
+            <p class="diabright"><span class="span">Dia</span> <span class="text-wrapper-2">bright</span></p>
+          </div>
+        </div>
+        <div class="doctors">
+          <div class="overlap-2">
+            <div class="doctor-cards">
+              <div class="overlap-3">
+                <img class="rectangle-3" src="{{ url_for('static', filename= 'img/rectangle-1.png') }}"/>
+                <div class="rectangle-4"></div>
+                <div class="text-wrapper-8">Dr. Sarah Patel</div>
+              </div>
+              <div class="overlap-group-3">
+                <img class="rectangle-5" src="{{ url_for('static', filename= 'img/rectangle-2.png') }}" />
+                <div class="rectangle-6"></div>
+                <div class="text-wrapper-9">Dr. Emily Rodriguez</div>
+              </div>
+              <div class="overlap-4">
+                <img class="rectangle-7" src="{{ url_for('static', filename= 'img/rectangle-3.png') }}" />
+                <div class="rectangle-4"></div>
+              </div>
+              <div class="overlap-5">
+                <img class="rectangle-8" src="{{ url_for('static', filename= 'img/rectangle-4.png') }}" />
+                <div class="rectangle-4"></div>
+              </div>
+              <div class="overlap-6">
+                <img class="rectangle-5" src="{{ url_for('static', filename= 'img/rectangle-5.png') }}" />
+                <div class="rectangle-4"></div>
+              </div>
+            </div>
+            <p class="fellow-of-the-royal">
+              <br />
+              <br />(Fellow of the Royal College of Ophthalmologists)
+            </p>
+            <div class="text-wrapper-10">MD, FRCOphth</div>
+            <div class="text-wrapper-11">Dr. Javier Morales</div>
+            <div class="text-wrapper-12">MD, FRCOphth</div>
+            <div class="text-wrapper-13">MD, FRCOphth</div>
+            <div class="text-wrapper-14">Dr. Anna Sokolova</div>
+            <p class="p">
+              <br />
+              <br />(Fellow of the Royal College of Ophthalmologists)
+            </p>
+            <p class="fellow-of-the-royal-2">
+              <br />
+              <br />(Fellow of the Royal College of Ophthalmologists)
+            </p>
+            <p class="fellow-of-the-royal-3">
+              <br />
+              <br />(Fellow of the Royal College of Ophthalmologists)
+            </p>
+            <p class="fellow-of-the-royal-4">
+              <br />
+              <br />(Fellow of the Royal College of Ophthalmologists)
+            </p>
+            <div class="text-wrapper-15">MD, FRCOphth</div>
+            <div class="text-wrapper-16">MD, FRCOphth</div>
+          </div>
+        </div>
+        <div class="group-doctors">
+          <div class="text-wrapper-17">Our Doctors</div>
+          <div class="trusted-care">TRUSTED CARE</div>
+        </div>
+        <button class="consultation-wrapper">
+          <div class="div-wrapper-2"><div class="text-wrapper-18">Book a Consultation</div></div>
+        </button>
+        <p class="text-wrapper-19">Your Future is Bright, See it Clearly</p>
+        <div class="overlap-7">
+          <div class="overlap-8">
+            <div class="text-wrapper-20">Clinician Link</div>
+            <img class="icon-upload" src="{{ url_for('static', filename= 'img/icon-upload.png') }}" />
+          </div>
+          <p class="text-wrapper-21">
+            Directly connect with healthcare specialists who are experts in diabetic retinopathy
+          </p>
+        </div>
+        <div class="overlap-9">
+          <img class="icon-profile" src="{{ url_for('static', filename= 'img/icon-profile.png.png') }}" />
+          <div class="overlap-10">
+            <p class="secure-patient">
+              Secure patient account creation<br />for history tracking and personalized <br />care management.
+            </p>
+            <div class="text-wrapper-22">Patient Profiles</div>
+          </div>
+        </div>
+        <div class="overlap-11">
+          <img class="clock-icon" src="{{ url_for('static', filename= 'img/clock-icon.png') }}" />
+          <div class="text-wrapper-23">Real-Time Stats</div>
+          <p class="instant-access-to">
+            Instant access to screening statistics <br />and analytics to measure impact <br />and progress.
+          </p>
+        </div>
+        <p class="key-features">
+          <span class="text-wrapper-24">Key Features<br /><br /></span>
+          <span class="text-wrapper-25"
+            >Highlighting the core functionalities that make our web app a pioneer in<br />diabetic eye care.</span
+          >
+        </p>
+        <p class="connect-with-our">
+          Connect with our doctors for consultations and get expert advice on diabetic retinopathy.
+        </p>
+        <div class="group-tool">
+          <img class="eye-pic" src="{{ url_for('static', filename= 'img/eye-pic.png') }}" />
+          <div class="overlap-12">
+            <p class="bridging-the-gap-in">
+              Bridging the gap in eye care management through an innovative web app <br />designed to transform diabetic
+              retinopathy triage in underprivileged areas.<br />AI Automated, accurate screening results delivered in
+              minutes, <br />aiding prompt and precise interventions.
+            </p>
+            <p class="discover-the-health">Discover the Health of Your Eyes with Our Online Tool.</p>
+          </div>
+          <button class="daignosis-wrapper" onclick="openLink('{{ url_for('upload') }}')">
+            <div class="div-wrapper-2"><div class="text-wrapper-18">Get Your Dignosis</div></div>
+          </button>
+        </div>
+        <img class="pic" src="{{ url_for('static', filename= 'img/pic.png') }}" />
+        <div class="text-wrapper-26">Diego Curumim</div>
+        <div class="overlap-13">
+          <img class="review" src="{{ url_for('static', filename= 'img/review.png') }}" />
+          <p class="i-was-diagnosed-with">
+            <span class="text-wrapper-27"
+              ><br />I was diagnosed with diabetic retinopathy and the web app helped me monitor my condition and
+              connect with doctors for&nbsp;&nbsp;consultations. It&#39;s been a game-changer for me.</span
+            >
+            <span class="text-wrapper-28"> </span>
+          </p>
+        </div>
+        <img class="line-9" src="{{ url_for('static', filename= 'img/line-8.png') }}" />
+        <div class="text-wrapper-29">Patient</div>
+      </div>
+    </div>
+      <script>
+        // JavaScript function to open a link
+        function openLink(url) {
+            window.location.href = url; // Redirect to the specified URL
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+:root {
+  --text-50: rgba(103, 103, 103, 1);
+  --text-100: rgba(28, 28, 28, 1);
+  --text-10: rgba(169, 169, 169, 1);
+  --main-100: rgba(51, 113, 235, 1);
+  --white: rgba(255, 255, 255, 1);
+  --stroke: rgba(232, 232, 232, 1);
+  --main-10: rgba(238, 243, 255, 1);
+  --sec-10: rgba(255, 244, 242, 1);
+  --variable-collection-400: rgba(155, 138, 251, 1);
+  --variable-collection-500: rgba(122, 90, 248, 1);
+  --variable-collection-700: rgba(89, 37, 220, 1);
+  --variable-collection-g900: rgba(16, 15, 20, 1);
+  --variable-collection-g600: rgba(73, 71, 90, 1);
+  --variable-collection-g500: rgba(104, 102, 119, 1);
+  --variable-collection-g400: rgba(151, 148, 170, 1);
+  --variable-collection-g300: rgba(203, 202, 215, 1);
+  --variable-collection-white: rgba(255, 255, 255, 1);
+}

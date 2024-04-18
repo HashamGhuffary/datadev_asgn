@@ -1,0 +1,1217 @@
+.clinician-view {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.clinician-view .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1201px;
+  height: 852px;
+}
+
+.clinician-view .overlap {
+  position: relative;
+  width: 1231px;
+  height: 852px;
+}
+
+.clinician-view .group-a {
+  position: absolute;
+  width: 1201px;
+  height: 852px;
+  top: 0;
+  left: 0;
+}
+
+.clinician-view .overlap-group {
+  position: relative;
+  width: 1203px;
+  height: 852px;
+}
+
+.clinician-view .div {
+  position: absolute;
+  width: 1203px;
+  height: 852px;
+  top: 0;
+  left: 0;
+}
+
+.clinician-view .text-wrapper {
+  height: 36px;
+  top: 20px;
+  left: 107px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--text-100);
+  font-size: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .logo {
+  position: absolute;
+  width: 52px;
+  height: 76px;
+  top: 0;
+  left: 17px;
+}
+
+.clinician-view .overlap-group-2 {
+  position: relative;
+  width: 50px;
+  height: 76px;
+}
+
+.clinician-view .ellipse {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  top: 27px;
+  left: 11px;
+  background-color: #ffc1072e;
+  border-radius: 12.5px/11.81px;
+}
+
+.clinician-view .line {
+  width: 1px;
+  height: 17px;
+  top: 9px;
+  left: 23px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .img {
+  width: 14px;
+  height: 14px;
+  top: 45px;
+  left: 1px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .line-2 {
+  width: 13px;
+  height: 14px;
+  top: 47px;
+  left: 31px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .line-3 {
+  width: 14px;
+  height: 14px;
+  top: 18px;
+  left: 1px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .line-4 {
+  width: 13px;
+  height: 14px;
+  top: 17px;
+  left: 32px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .line-5 {
+  width: 16px;
+  height: 1px;
+  top: 42px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .line-6 {
+  width: 32px;
+  height: 1px;
+  top: 42px;
+  left: 18px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .line-7 {
+  width: 1px;
+  height: 17px;
+  top: 50px;
+  left: 23px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .diabright {
+  position: absolute;
+  width: 49px;
+  top: 0;
+  left: 1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 900;
+  color: transparent;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 74px;
+  white-space: nowrap;
+}
+
+.clinician-view .span {
+  color: #ffc107;
+}
+
+.clinician-view .text-wrapper-2 {
+  color: #000000;
+}
+
+.clinician-view .overlap-2 {
+  position: absolute;
+  width: 1213px;
+  height: 758px;
+  top: 94px;
+  left: 0;
+}
+
+.clinician-view .reports {
+  position: absolute;
+  width: 1213px;
+  height: 758px;
+  top: 0;
+  left: 0;
+}
+
+.clinician-view .overlap-3 {
+  position: relative;
+  width: 1201px;
+  height: 758px;
+  background-color: #ffffff;
+  border-radius: 47px;
+  box-shadow: 0px 4px 15px #d8d2fca3;
+}
+
+.clinician-view .text-wrapper-3 {
+  top: 32px;
+  left: 42px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 500;
+  color: #271e4a;
+  font-size: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .mask-group {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  top: 105px;
+  left: 42px;
+}
+
+.clinician-view .overlap-4 {
+  position: absolute;
+  width: 879px;
+  height: 239px;
+  top: 97px;
+  left: 286px;
+  background-color: #ffffff;
+  border-radius: 47px;
+  box-shadow: 0px 4px 15px #d8d2fca3;
+}
+
+.clinician-view .div-wrapper {
+  position: absolute;
+  width: 78px;
+  height: 19px;
+  top: 22px;
+  left: 694px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.clinician-view .text-wrapper-4 {
+  position: absolute;
+  top: 5px;
+  left: 21px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-5 {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 500;
+  color: #271e4a;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-6 {
+  position: absolute;
+  top: 133px;
+  left: 42px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 500;
+  color: #ffc107;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .overlap-group-3 {
+  position: absolute;
+  width: 121px;
+  height: 29px;
+  top: 50px;
+  left: 1036px;
+  border-radius: 5px;
+}
+
+.clinician-view .text-wrapper-7 {
+  position: absolute;
+  top: 4px;
+  left: 24px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .rectangle {
+  position: absolute;
+  width: 121px;
+  height: 29px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.clinician-view .overlap-5 {
+  position: absolute;
+  width: 121px;
+  height: 29px;
+  top: 50px;
+  left: 896px;
+  background-color: #ffc107;
+  border-radius: 5px;
+}
+
+.clinician-view .text-wrapper-8 {
+  top: 4px;
+  left: 24px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .reports-2 {
+  position: absolute;
+  width: 1149px;
+  height: 353px;
+  top: 359px;
+  left: 38px;
+}
+
+.clinician-view .overlap-6 {
+  position: absolute;
+  width: 625px;
+  height: 351px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 47px;
+  box-shadow: 0px 4px 15px #d8d2fca3;
+}
+
+.clinician-view .date-doctor-wrapper {
+  position: absolute;
+  width: 558px;
+  height: 42px;
+  top: 95px;
+  left: 33px;
+  background-color: #edf4fc;
+}
+
+.clinician-view .date-doctor {
+  position: absolute;
+  top: 11px;
+  left: 33px;
+  opacity: 0.9;
+  font-family: "Kanit", Helvetica;
+  font-weight: 300;
+  color: #271e4a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-9 {
+  position: absolute;
+  top: 38px;
+  left: 34px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 500;
+  color: #271e4a;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .overlap-7 {
+  position: absolute;
+  width: 403px;
+  height: 45px;
+  top: 157px;
+  left: 66px;
+}
+
+.clinician-view .rectangle-2 {
+  position: absolute;
+  width: 71px;
+  height: 23px;
+  top: 2px;
+  left: 239px;
+  background-color: #fff4d2;
+  border-radius: 20px;
+}
+
+.clinician-view .element-mar-dr-sarah {
+  position: absolute;
+  width: 403px;
+  top: 3px;
+  left: 0;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-10 {
+  color: #271e4a;
+}
+
+.clinician-view .text-wrapper-11 {
+  color: #ffedec;
+}
+
+.clinician-view .text-wrapper-12 {
+  position: absolute;
+  top: 0;
+  left: 258px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.clinician-view .edit-button-wrapper {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 155px;
+  left: 511px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px #b9b2e2a3;
+}
+
+.clinician-view .edit-button {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 7px;
+  left: 8px;
+  object-fit: cover;
+}
+
+.clinician-view .trash-wrapper {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 155px;
+  left: 561px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px #b9b2e2a3;
+}
+
+.clinician-view .trash {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 7px;
+  left: 9px;
+  object-fit: cover;
+}
+
+.clinician-view .line-8 {
+  width: 547px;
+  height: 1px;
+  top: 206px;
+  left: 36px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .overlap-8 {
+  position: absolute;
+  width: 312px;
+  height: 26px;
+  top: 224px;
+  left: 66px;
+}
+
+.clinician-view .rectangle-3 {
+  position: absolute;
+  width: 74px;
+  height: 23px;
+  top: 2px;
+  left: 238px;
+  background-color: #fff4d2;
+  border-radius: 20px;
+}
+
+.clinician-view .p {
+  width: 308px;
+  top: 3px;
+  left: 0;
+  position: absolute;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-13 {
+  position: absolute;
+  top: 0;
+  left: 246px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.clinician-view .img-wrapper {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 222px;
+  left: 511px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px #b9b2e2a3;
+}
+
+.clinician-view .text-wrapper-14 {
+  position: absolute;
+  top: 226px;
+  left: 431px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: #271e4a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-15 {
+  position: absolute;
+  top: 294px;
+  left: 431px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: #271e4a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .overlap-9 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 222px;
+  left: 561px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px #b9b2e2a3;
+}
+
+.clinician-view .line-9 {
+  position: absolute;
+  width: 547px;
+  height: 1px;
+  top: 273px;
+  left: 36px;
+  object-fit: cover;
+}
+
+.clinician-view .overlap-10 {
+  position: absolute;
+  width: 75px;
+  height: 26px;
+  top: 289px;
+  left: 303px;
+}
+
+.clinician-view .rectangle-4 {
+  position: absolute;
+  width: 75px;
+  height: 23px;
+  top: 2px;
+  left: 0;
+  background-color: #fff4d2;
+  border-radius: 20px;
+}
+
+.clinician-view .text-wrapper-16 {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.clinician-view .overlap-11 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 287px;
+  left: 511px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px #b9b2e2a3;
+}
+
+.clinician-view .element-feb-dr-sarah {
+  top: 292px;
+  left: 66px;
+  position: absolute;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-17 {
+  font-weight: 500;
+  color: #3e779b;
+}
+
+.clinician-view .overlap-12 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 287px;
+  left: 561px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px #b9b2e2a3;
+}
+
+.clinician-view .overlap-13 {
+  position: absolute;
+  width: 476px;
+  height: 351px;
+  top: 2px;
+  left: 651px;
+  background-color: #ffffff;
+  border-radius: 47px;
+  box-shadow: 0px 4px 15px #d8d2fca3;
+}
+
+.clinician-view .progress-bar {
+  position: absolute;
+  width: 412px;
+  height: 44px;
+  top: 76px;
+  left: 36px;
+}
+
+.clinician-view .text-wrapper-18 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Kanit", Helvetica;
+  font-weight: 500;
+  color: #271e4a;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-19 {
+  position: absolute;
+  top: 2px;
+  left: 389px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: #271e4acc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .rectangle-wrapper {
+  position: absolute;
+  width: 407px;
+  height: 12px;
+  top: 32px;
+  left: 1px;
+  background-color: #e0e9f4;
+}
+
+.clinician-view .rectangle-5 {
+  width: 296px;
+  height: 12px;
+  background-color: #fff4d2;
+}
+
+.clinician-view .progress-bar-2 {
+  width: 413px;
+  top: 140px;
+  position: absolute;
+  height: 44px;
+  left: 36px;
+}
+
+.clinician-view .text-wrapper-20 {
+  position: absolute;
+  top: 3px;
+  left: 362px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: #271e4acc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .rectangle-6 {
+  width: 287px;
+  height: 12px;
+  background-color: #fff4d2;
+}
+
+.clinician-view .progress-bar-3 {
+  width: 413px;
+  top: 206px;
+  position: absolute;
+  height: 44px;
+  left: 36px;
+}
+
+.clinician-view .rectangle-7 {
+  width: 242px;
+  height: 12px;
+  background-color: #fff4d2;
+}
+
+.clinician-view .progress-bar-4 {
+  width: 412px;
+  top: 271px;
+  position: absolute;
+  height: 44px;
+  left: 36px;
+}
+
+.clinician-view .text-wrapper-21 {
+  position: absolute;
+  top: 2px;
+  left: 376px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: #271e4acc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .rectangle-8 {
+  width: 271px;
+  height: 12px;
+  background-color: #fff4d2;
+}
+
+.clinician-view .text-wrapper-22 {
+  position: absolute;
+  top: 36px;
+  left: 33px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 500;
+  color: #271e4a;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .rectangle-9 {
+  position: absolute;
+  width: 616px;
+  height: 674px;
+  top: 7px;
+  left: 579px;
+  background-color: #ffffff;
+  box-shadow: -8px 0px 16px #0000001a;
+}
+
+.clinician-view .group-b {
+  position: absolute;
+  width: 646px;
+  height: 591px;
+  top: 18px;
+  left: 585px;
+}
+
+.clinician-view .text-wrapper-23 {
+  position: absolute;
+  top: 64px;
+  left: 536px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: #ffc107;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-24 {
+  width: 191px;
+  top: 4px;
+  left: 22px;
+  font-weight: 700;
+  color: #343434;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+}
+
+.clinician-view .line-10 {
+  width: 586px;
+  height: 1px;
+  top: 39px;
+  left: 15px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .choose-the-widgets {
+  position: absolute;
+  width: 239px;
+  top: 58px;
+  left: 26px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #0b0b0b;
+  font-size: 14px;
+  letter-spacing: -0.14px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.clinician-view .export-format {
+  width: 226px;
+  top: 433px;
+  left: 29px;
+  font-weight: 500;
+  color: #0b0b0b;
+  font-size: 14px;
+  letter-spacing: -0.14px;
+  line-height: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+}
+
+.clinician-view .overlap-14 {
+  position: absolute;
+  width: 564px;
+  height: 185px;
+  top: 212px;
+  left: 26px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px dashed;
+  border-color: #b7d0d0;
+}
+
+.clinician-view .reports-by-wrapper {
+  position: absolute;
+  width: 158px;
+  height: 156px;
+  top: 15px;
+  left: 14px;
+  background-color: #fff4d29e;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #d9e3e3;
+}
+
+.clinician-view .reports-by {
+  position: absolute;
+  width: 116px;
+  top: 66px;
+  left: 20px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #343434;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.clinician-view .overlap-group-4 {
+  position: absolute;
+  width: 356px;
+  height: 156px;
+  top: 18px;
+  left: 196px;
+  background-color: #fff4d24a;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #fff4d2;
+}
+
+.clinician-view .text-wrapper-25 {
+  position: absolute;
+  width: 125px;
+  top: 15px;
+  left: 52px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #222222;
+  font-size: 12px;
+  letter-spacing: 0.06px;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-26 {
+  position: absolute;
+  width: 125px;
+  top: 36px;
+  left: 52px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #222222;
+  font-size: 12px;
+  letter-spacing: 0.06px;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-27 {
+  top: 78px;
+  position: absolute;
+  width: 125px;
+  left: 52px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #222222;
+  font-size: 12px;
+  letter-spacing: 0.06px;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-28 {
+  top: 99px;
+  position: absolute;
+  width: 125px;
+  left: 52px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #222222;
+  font-size: 12px;
+  letter-spacing: 0.06px;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-29 {
+  top: 57px;
+  position: absolute;
+  width: 125px;
+  left: 52px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #222222;
+  font-size: 12px;
+  letter-spacing: 0.06px;
+  line-height: normal;
+}
+
+.clinician-view .rectangle-10 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 36px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #dddddd;
+}
+
+.clinician-view .rectangle-11 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 57px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #dddddd;
+}
+
+.clinician-view .rectangle-12 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 78px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #dddddd;
+}
+
+.clinician-view .rectangle-13 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 99px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #dddddd;
+}
+
+.clinician-view .rectangle-14 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 15px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #dddddd;
+}
+
+.clinician-view .overlap-15 {
+  position: absolute;
+  width: 180px;
+  height: 80px;
+  top: 108px;
+  left: 29px;
+  background-color: #fff4d27d;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #ffc107;
+}
+
+.clinician-view .text-wrapper-30 {
+  position: absolute;
+  width: 164px;
+  top: 29px;
+  left: 4px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #343434;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.clinician-view .overlap-16 {
+  position: absolute;
+  width: 72px;
+  height: 31px;
+  top: 470px;
+  left: 26px;
+  background-color: #fff4d2;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #d8e3e3;
+}
+
+.clinician-view .text-wrapper-31 {
+  position: absolute;
+  width: 36px;
+  top: 5px;
+  left: 18px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #343434;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.clinician-view .overlap-17 {
+  position: absolute;
+  width: 72px;
+  height: 31px;
+  top: 470px;
+  left: 109px;
+  background-color: #fff4d2;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #d8e3e3;
+}
+
+.clinician-view .png-wrapper {
+  position: absolute;
+  width: 72px;
+  height: 31px;
+  top: 470px;
+  left: 192px;
+  background-color: #fff4d2;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #d8e3e3;
+}
+
+.clinician-view .line-11 {
+  width: 616px;
+  height: 1px;
+  top: 591px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.clinician-view .close {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 571px;
+}
+
+.clinician-view .overlap-18 {
+  position: absolute;
+  width: 144px;
+  height: 44px;
+  top: 525px;
+  left: 20px;
+  background-color: #ffc107;
+  border-radius: 15px;
+}
+
+.clinician-view .export {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 12px;
+  left: 14px;
+}
+
+.clinician-view .text-wrapper-32 {
+  top: 12px;
+  left: 49px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+}
+
+.clinician-view .ellipse-2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 210px;
+  left: 51px;
+  object-fit: cover;
+}
+
+.clinician-view .name-jane-thomas {
+  position: absolute;
+  width: 411px;
+  top: 259px;
+  left: 326px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.clinician-view .text-wrapper-33 {
+  font-weight: 500;
+  color: #ffc107;
+}
+
+.clinician-view .text-wrapper-34 {
+  color: #000000;
+  font-size: 15px;
+}
+
+.clinician-view .text-wrapper-35 {
+  position: absolute;
+  width: 203px;
+  top: 350px;
+  left: 326px;
+  font-family: "Kanit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}

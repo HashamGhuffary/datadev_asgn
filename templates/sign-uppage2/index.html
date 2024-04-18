@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/globals.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleguide.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <div class="sign-up-page">
+      <div class="sign-up-wrapper">
+        <div class="sign-up">
+          <div class="div">
+            <div class="text-wrapper">Create an account</div>
+            <p class="already-have-an">
+              <span class="span">Already have an account?&nbsp;&nbsp; </span> <span class="text-wrapper-2">Login</span>
+            </p>
+          </div>
+          <div class="content-conatiner">
+            <div class="text-container">
+              <div class="div">
+                <p class="p">You’re creating an account as?</p>
+                <div class="containers">
+                  <div class="patient-container">
+                    <label class="text-button">
+                      <input type="radio" name="account_type" value="patient" />
+                      <div class="radio-buttons"></div>
+                      <div class="text-wrapper-3">As a patient</div>
+                    </label>
+                  </div>
+                  <div class="text-button-wrapper">
+                    <label class="text-button">
+                      <input type="radio" name="account_type" value="clinician" />
+                      <div class="radio-buttons-2"></div>
+                      <div class="text-wrapper-4">As a clinician</div>
+                    </label>
+                  </div>
+                  <div class="text-button-wrapper">
+                    <label class="text-button">
+                      <input type="radio" name="account_type" value="family" />
+                      <div class="radio-buttons-2"></div>
+                      <div class="text-wrapper-4">As a Friend/Family</div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- Rest of your HTML content -->
+            </div>
+            <div class="primary-buttons"><div class="button-label">Create Account</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

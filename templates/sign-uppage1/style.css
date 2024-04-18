@@ -1,0 +1,482 @@
+.sign-up-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up-page .sign-up-wrapper {
+  background-color: #ffffff;
+  width: 1068px;
+  height: 1060px;
+}
+
+.sign-up-page .sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 962px;
+  align-items: flex-start;
+  gap: 44px;
+  position: relative;
+  left: 53px;
+}
+
+.sign-up-page .div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--headings-h4-font-family);
+  font-weight: var(--headings-h4-font-weight);
+  color: #8c958d;
+  font-size: var(--headings-h4-font-size);
+  letter-spacing: var(--headings-h4-letter-spacing);
+  line-height: var(--headings-h4-line-height);
+  font-style: var(--headings-h4-font-style);
+}
+
+.sign-up-page .already-have-an {
+  position: relative;
+  align-self: stretch;
+  transition: all 0.2s ease-in;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-g600);
+  font-size: 16px;
+  letter-spacing: 0.08px;
+  line-height: 25px;
+}
+
+.sign-up-page .span {
+  color: #494759;
+  letter-spacing: var(--body-text-body-large-letter-spacing);
+  font-family: var(--body-text-body-large-font-family);
+  font-style: var(--body-text-body-large-font-style);
+  font-weight: var(--body-text-body-large-font-weight);
+  line-height: var(--body-text-body-large-line-height);
+  font-size: var(--body-text-body-large-font-size);
+}
+
+.sign-up-page .text-wrapper-2 {
+  font-weight: 600;
+  color: #0b1514;
+  letter-spacing: 0.01px;
+  text-decoration: underline;
+}
+
+.sign-up-page .content-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .p {
+  position: relative;
+  width: 669px;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-g600);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.sign-up-page .containers {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .patient-container {
+  display: flex;
+  flex-direction: column;
+  width: 298px;
+  height: 67px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 15px 25px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #d1d0db;
+  transition: all 0.2s ease-in;
+}
+
+.sign-up-page .text-button {
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .radio-buttons {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  border: 1.5px solid;
+  border-color: #cbcad7;
+}
+
+.sign-up-page .text-wrapper-3 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #49475a;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.sign-up-page .text-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 67px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 15px 25px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--variable-collection-g300);
+  transition: all 0.2s ease-in;
+}
+
+.sign-up-page .radio-buttons-2 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  border: 1.5px solid;
+  border-color: var(--variable-collection-g300);
+}
+
+.sign-up-page .text-wrapper-4 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-g600);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.sign-up-page .input-fields {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-field {
+  flex-direction: column;
+  width: 961px;
+  align-items: flex-start;
+  gap: 8px;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .input {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g400);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  font-style: var(--button-large-font-style);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.sign-up-page .input-field {
+  padding: 15.5px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #d1d0db;
+  box-shadow: inset 0px 2px 2px #0000001a;
+  background: none;
+  flex: 0 0 auto;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #686677;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.sign-up-page .input-field-2 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 15.5px 20px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: var(--variable-collection-g300);
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .input-2 {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -1px;
+  background-color: transparent;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g500);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+  font-style: var(--button-large-font-style);
+}
+
+.sign-up-page .eye-disable {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-bottom: -1679.5px;
+  margin-left: -3443px;
+}
+
+.sign-up-page .label {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g400);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  font-style: var(--button-large-font-style);
+}
+
+.sign-up-page .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up-page .re-entre-password {
+  display: flex;
+  flex-direction: column;
+  width: 961px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-field-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .hide-password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .text-wrapper-5 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-g400);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  font-style: var(--button-large-font-style);
+}
+
+.sign-up-page .password-hide-see {
+  display: flex;
+  width: 73px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  opacity: 0;
+}
+
+.sign-up-page .eye-disable-2 {
+  margin-bottom: -1477.5px;
+  margin-left: -3406px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up-page .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-g600);
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-up-page .re-entre-password-2 {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -1px;
+  background-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--variable-collection-g500);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+}
+
+.sign-up-page .eye-disable-3 {
+  margin-bottom: -1443.5px;
+  margin-left: -4163px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up-page .eye-disable-4 {
+  margin-left: -2159px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up-page .skills {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .check-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 8px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up-page .i-want-to-receive {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--body-text-body-large-font-family);
+  font-weight: var(--body-text-body-large-font-weight);
+  color: var(--variable-collection-g600);
+  font-size: var(--body-text-body-large-font-size);
+  letter-spacing: var(--body-text-body-large-letter-spacing);
+  line-height: var(--body-text-body-large-line-height);
+  font-style: var(--body-text-body-large-font-style);
+}
+
+.sign-up-page .primary-buttons {
+  display: flex;
+  width: 249px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 17px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #8c958d;
+  border-radius: 6px;
+  transition: all 0.2s ease-in;
+}
+
+.sign-up-page .button-label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--button-large-font-family);
+  font-weight: var(--button-large-font-weight);
+  color: var(--variable-collection-white);
+  font-size: var(--button-large-font-size);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  white-space: nowrap;
+  font-style: var(--button-large-font-style);
+}
